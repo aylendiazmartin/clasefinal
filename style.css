@@ -808,7 +808,7 @@ option {
 
 /*fin de pagina*/
 
-.redes-sociales {
+.redes__sociales {
 	display: flex;
 	flex-direction: row;
 	list-style: none;
@@ -816,7 +816,7 @@ option {
 	padding: 0px;	
 	}
 
-.redes-sociales li {
+.redes__sociales li {
 	margin: 10px;
 	
 }
@@ -846,7 +846,7 @@ option {
 
 /*footer*/
 @media (min-width: 300px) and (max-width: 786px){
-.redes-sociales {
+.redes__sociales {
 	width: 100%;
 	
 	}	
