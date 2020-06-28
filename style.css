@@ -7,7 +7,7 @@ body {
 
 }
 
-.todo-el-menu {
+.menu {
 	width: 1200px;
 	height: 200px;
 	padding: 0px;
@@ -15,8 +15,7 @@ body {
 	}
 
 
-
-.imagen-logo {
+.menu__logo {
 	display: flex;
 	flex-direction: row;
 	margin: 0px;
@@ -24,17 +23,14 @@ body {
     height: 100px;
 }
 
-.imagen-logo a{
+.menu__logo a{
 	margin: 20px 0px 10px 40px;
 }
 
-.todo-el-menu {
-	width: 1200px;
-	height: 200px;
-}
 
 
-.menu {  
+
+.menu__item {  
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
@@ -43,7 +39,7 @@ body {
   }
 
 
-.menu a {
+.menu__item a {
 	display: inline-block;
 	width: 130px;
 	color:#606060;
@@ -57,7 +53,7 @@ body {
 	padding: 10px;
 	}
 
-nav .hola {
+nav .menu__item--hola {
 	width: 90px;
 	height: 30px;
 	color: #D3A89B;
@@ -68,10 +64,10 @@ nav .hola {
 
 
 /*animaciones*/
-.menu a:focus {
+.menu__item a:focus {
 	color: #D3A89B;
 }
-nav .hola:focus {
+nav .menu__item--hola:focus {
 	color: #606060;
 }
 
