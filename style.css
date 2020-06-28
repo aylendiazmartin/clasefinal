@@ -6,6 +6,10 @@ body {
     margin: center;
 
 }
+@font-face {
+	font-family:manuscrita;
+	src: url(manuscrita.ttf);
+}
 
 .menu {
 	width: 1200px;
@@ -54,10 +58,11 @@ body {
 	}
 
 nav .menu__item--hola {
+	font-family:manuscrita;
 	width: 90px;
 	height: 30px;
 	color: #D3A89B;
-	font-size: 22px;
+	font-size: 25px;
 	margin: 85px 30px 10px 0px;
 }
 
@@ -106,20 +111,20 @@ nav .menu__item--hola:focus {
 
 h1 {
 	color: #D3A89B;
-	font-size: 70px;
-	font-family: 'Libre Baskerville', serif;
+	font-size: 50px;
+	font-family:manuscrita;
 	font-weight: lighter;
 	letter-spacing: 3px;
 	padding: 0px;
 	text-align: center;
-	margin: 70px 20px 10px 10px;
+	margin: 90px 20px 10px 10px;
 	;
 }
 
 
 h2  {
 	color: #D3A89B;
-	font-family: 'Montserrat', sans-serif;
+	font-family:manuscrita;
 	font-size: 44px;
 	margin: 40px 0px 5px 25px;
 }
@@ -144,8 +149,6 @@ p {
 	line-height: 5px;
 	margin: 18px 5px 35px 30px;
 }
-
-
 
 
 
@@ -213,10 +216,10 @@ p {
 	top: 0px;
 	left: 533px;
 	color: #D3A89B;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 44px;
+	font-family:manuscrita;
+	font-size: 40px;
 	letter-spacing: 2px;
-	margin: 35px 0px 0px 0px;
+	margin: 35px 0px 10px 7px;
 	text-align: right;
 }
 
@@ -280,8 +283,8 @@ p {
 
 .trabajos_titulo {
 	color:  #D3A89B;
-	font-size: 44px;
-	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-family:manuscrita;
 	letter-spacing: 1px;
 	text-align: left;
 	padding: 0px;
@@ -816,9 +819,8 @@ option {
 .copy {
 	width: 1200px;
 	height: 40px;
-	background-color: #dfa375;
-	background-image: linear-gradient(315deg, #dfa375 0%, #c58e7f 74%);
-	color: white;
+	background-color: #ece6e0;
+	color: #606060;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 9px;
 	text-align: center;
