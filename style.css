@@ -90,9 +90,13 @@ nav .menu__item--hola:focus {
 
 
 #carouselExampleControls {
-    display: inline-block;
-    width: 1200px;
-	margin-top: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height: auto;
+	margin-top: 50px;
+
  	}
 
 
@@ -120,9 +124,7 @@ h2  {
 	margin: 40px 0px 5px 25px;
 }
 
-.contacto_subtitulo {
-	margin: 10px 0px 50px 100px;
-}
+
 
 h3 {
 	color: #D3A89B;
