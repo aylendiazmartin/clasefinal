@@ -15,7 +15,7 @@ body {
 	width: 1200px;
 	height: 200px;
 	padding: 0px;
-	margin-bottom: 10px;
+	
 	}
 
 
@@ -24,7 +24,7 @@ body {
 	flex-direction: row;
 	margin: 0px;
 	width: 200px;
-    height: 100px;
+    height: auto;
 }
 
 .menu__logo a{
@@ -38,7 +38,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	margin: 0px 0px 0px 400px;
+	margin: 0px 0px 0px 280px;
 	padding: 0px;
   }
 
@@ -100,7 +100,7 @@ nav .menu__item--hola:focus {
 	margin-right: auto;
 	width: 1000px;
 	height: auto;
-	margin-top: 50px;
+	margin-top: 5px;
 
  	}
 
