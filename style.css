@@ -28,29 +28,23 @@ body {
 	margin: 20px 0px 10px 40px;
 }
 
+.todo-el-menu {
+	width: 1200px;
+	height: 200px;
+}
+
 
 .menu {  
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	
 	margin: 0px 0px 0px 400px;
 	padding: 0px;
-	
   }
 
 
-.menu li {
-	display: inline-block;
-	margin: 0px;
-	padding: 0px;
-
-}
-
-
 .menu a {
-	display: flex;
-	
+	display: inline-block;
 	width: 130px;
 	color:#606060;
 	font-family: 'Montserrat', sans-serif;
@@ -61,38 +55,27 @@ body {
 	text-decoration-line: none;
 	margin: 90px 15px 0px 6px;
 	padding: 10px;
-	
-	
 	}
 
-.hola a{
-	display: flex;
-	width: 100px;
-	margin: 85px 18px 0px 0px;
-	text-align: right;
+nav .hola {
+	width: 90px;
+	height: 30px;
 	color: #D3A89B;
 	font-size: 22px;
-	letter-spacing: 2.5px;
-	text-decoration: underline;
-	text-decoration-color:  #D3A89B;
+	margin: 85px 30px 10px 0px;
 }
 
-.todo-el-menu {
-	width: 1200px;
-	height: 200px;
-}
+
 
 /*animaciones*/
-
-.menu .hola a:focus {
-	color: #606060;
-	text-decoration: underline;
-	text-decoration-color: #606060;
-}
-
-.menu li a:focus {
+.menu a:focus {
 	color: #D3A89B;
 }
+nav .hola:focus {
+	color: #606060;
+}
+
+
 
 
 .link-icono:hover {
