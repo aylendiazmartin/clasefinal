@@ -272,7 +272,7 @@ p {
 
 /*secccion trabajos*/
 
-.mis__trabajos {
+.trabajos_titulo {
 	color:  #D3A89B;
 	font-size: 44px;
 	font-family: 'Montserrat', sans-serif;
@@ -282,7 +282,7 @@ p {
 	margin: 40px 0px 0px 20px;
 }
 
-h5 {
+.trabajos__subtitulo {
 	color: #606060;
 	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
@@ -295,7 +295,7 @@ h5 {
 
 /*trabajos con grids*/
 
-.contenido {
+.trabajos__contenido {
 	display: grid;
 	grid-gap: 10px;
 	grid-template-columns: 600px 600px;
@@ -309,14 +309,14 @@ h5 {
 }
 
 
-.imagen1 {
+.trabajos__imagen--1 {
 	grid-column: 1 ;
 	grid-row: 1 / span 3;
 	width: 600px;
 }
 
 
-.titulo1 {
+.trabajos__titulo--1 {
 	grid-column: 2;
 	grid-row: 1 /span 1;
 	align-items: end;
@@ -329,7 +329,7 @@ h5 {
 }
 
 
-.subtitulo1 {
+.trabajos__subtitulo--1 {
 	grid-column: 2;
 	grid-row: 2 /span 1;
 	width: 275px;
@@ -346,7 +346,7 @@ h5 {
 }
 
 
-.parrafo1 {
+.trabajos__parrafo--1 {
 	grid-column: 2;
 	grid-row: 3 / span 1;
 	width: 300px;
@@ -360,16 +360,14 @@ h5 {
 }
 
 
-/*aqui*/
-
-.imagen2 {
+.trabajos__imagen--2{
 	grid-column: 2 ;
 	grid-row: 4 / span 3;
 	width: 600px;	
 }
 
 
-.titulo2 {
+.trabajos__titulo--2 {
 	grid-column: 1;
 	grid-row: 4 /span 1;
 	margin: 0px 12px 0px 25px;
@@ -381,7 +379,7 @@ h5 {
 }
 
 
-.subtitulo2 {
+.trabajos__subtitulo--2{
 	grid-column: 1;
 	grid-row: 5 /span 1;
 	justify-content: right;
@@ -399,7 +397,7 @@ h5 {
 }
 
 
-.parrafo2 {
+.trabajos__parrafo--2 {
 	grid-column: 1;
 	grid-row: 6 / span 1;
 	width: 300px;
@@ -415,8 +413,8 @@ h5 {
 }
 
  
-/*aqui3*/
-.imagen3 {
+
+.trabajos__imagen--3 {
 	grid-column: 1 ;
 	grid-row: 7 / span 3;
 	width: 600px;
@@ -424,7 +422,7 @@ h5 {
 }
 
 
-.titulo3 {
+.trabajos__titulo--3 {
 	grid-column: 2;
 	grid-row: 7 /span 1;
 	align-items: end;
@@ -436,7 +434,7 @@ h5 {
 	}
 
 
-.subtitulo3 {
+.trabajos__subtitulo--3 {
 	grid-column: 2;
 	grid-row: 8 /span 1;
 	width: 275px;
@@ -453,7 +451,7 @@ h5 {
 }
 
 
-.parrafo3 {
+.trabajos__parrafo--3 {
 	grid-column: 2;
 	grid-row: 9 / span 1;
 	width: 300px;
