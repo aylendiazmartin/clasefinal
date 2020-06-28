@@ -112,10 +112,10 @@ nav .menu__item--hola:focus {
 
 h1 {
 	color: #D3A89B;
-	font-size: 50px;
-	font-family:manuscrita;
+	font-size: 65px;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: lighter;
-	letter-spacing: 3px;
+	letter-spacing: 4px;
 	padding: 0px;
 	text-align: center;
 	margin: 90px 20px 10px 10px;
@@ -161,13 +161,36 @@ p {
 
 
 .icono {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+.icono__titulo {
+	font-family:manuscrita;
+	font-size: 23px;
+	background-color: #D3A89B;
+	color: white;
+	padding: 10px;
+	padding-top: 20px;
+	width: 800px;
+	text-align: center;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+} 
+
+.icono__imagen {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
 
-
 .icono__link {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	text-align: center;
 	color: #606060;
 	font-family: 'Montserrat', sans-serif;
@@ -176,6 +199,8 @@ p {
 	font-weight: 500;
 	margin: 10px 5px 0px 5px;	
 }
+
+
 
 
 .icono__link:hover {
@@ -192,14 +217,14 @@ p {
 	display: flex;
 
 	color: #606060;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
-	line-height: 18px;
+	line-height: 25px;
 	letter-spacing: 1.8px;
 	padding: 25px;
 	text-align: center;
 	margin: auto;
-	margin-bottom: 100px;
+	margin-bottom: 60px;
 
 	
 
@@ -268,22 +293,27 @@ p {
 .mihistoria__boton li {
 	list-style: none;
 	width: 250px;
-	height: 80px;
+	height: auto;
 	position: relative;
 	top: 10px;
 	left: 700px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	background-color: #D3A89B;
+	padding: 5px;
+	text-align: center;	
+	margin: 0px;
+	border-radius:10px;
 }
 
 
 .mihistoria__boton li a {
 	color: white;
-	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	letter-spacing: 1px;
 	font-weight: 500;
 	text-decoration: none;
-	background-color: #D3A89B;
-	padding: 3px 10px;
+	padding: 3px 0 10px 0 ;
 }
 
 
@@ -541,16 +571,14 @@ p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	letter-spacing: 1px;
-	background-color: #B27863;
+	background-color: #D3A89B;
 	color: white;
 	padding: 5px;
 	width: 200px;
 	height: 40px;
 	text-align: center;	
 	margin: 0px;
-	outline:#B27863;
-
-
+	border-radius:10px;
 }
 
 .servicio__link--dg li a {
@@ -558,7 +586,6 @@ p {
 	list-style: none;
 	color: white;
 	margin-top: 20px;
-	outline:#B27863;
 }
 
 
@@ -601,26 +628,19 @@ p {
 .servicio__link--web {
 	grid-column: 2;
 	grid-row: 6 /span 1;
-	color: #606060;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	letter-spacing: 1px;
-	background-color: #B2897C;
+	background-color: #D3A89B;
 	color: white;
 	padding: 5px;
 	width: 200px;
 	height: 40px;
 	text-align: center;	
 	margin: 0px;
-
+	border-radius:10px;
 }
 
-.servicio__link--web li a {
-	text-decoration: none;
-	list-style: none;
-	color: white;
-	margin-top: 20px;
-}
 
 
 /*community*/
@@ -666,21 +686,18 @@ p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	letter-spacing: 1px;
-	background-color: #D4BAAA;
+	background-color: #D3A89B;
 	color: white;
 	padding: 5px;
 	width: 200px;
 	height: 40px;
 	text-align: center;	
-	margin-top: 0px;
+	margin: 0px;
+	border-radius:10px;
 
 }
 
-.servicio__link--community li a {
-	text-decoration: none;
-	list-style: none;
-	color: white;
-}
+
 
 /*fotografia*/
 
@@ -725,13 +742,14 @@ p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	letter-spacing: 1px;
-	background-color: #E4BFAD;
+	background-color: #D3A89B;
 	color: white;
 	padding: 5px;
 	width: 200px;
 	height: 40px;
 	text-align: center;	
-	margin-top: 0px;
+	margin: 0px;
+	border-radius:10px;
 
 }
 
@@ -869,7 +887,10 @@ option {
 		width: 100vw;
 		height: auto;
 		margin-bottom: 40px;
+		margin-left: 0px;
 	}
+
+	
 
 
 
@@ -890,14 +911,14 @@ option {
 }
 
 @media (min-width: 300px) and (max-width: 786px){
-	.que-es-magin {
+	.magin {
 		font-size: 10px;
 		margin-bottom: 40px;	
 
 	}
 }
 @media (min-width: 300px) and (max-width: 786px){
-.link-icono {
+.icono__link {
 	text-align: center;
 	font-size: 12px;
 	margin: 10px 5px 10px 5px;
@@ -906,13 +927,13 @@ option {
 }
 
 @media (min-width: 300px) and (max-width: 786px){
-.ir-a-servicios {
+.mihistoria__boton {
 	margin-bottom: 20px;
 	}
 }
 
 @media (min-width: 300px) and (max-width: 786px){
-	.mi-imagen {
+	.mihistoria__imagen {
 	width: 50%;
 	margin: 70px 80px 0px 0px;
 	left: 35px;	
@@ -920,7 +941,7 @@ option {
 }
 
 @media (min-width: 300px) and (max-width: 786px){
-	.acerca-de-mi {
+	.mihistoria__titulo {
 	width: 50%;
 	top: 110px;
 	left: 220px;
@@ -930,7 +951,7 @@ option {
 }
 
 @media (min-width: 300px) and (max-width: 786px){
-	.aylen {
+	.mihistoria__subtitulo {
 	width: 300px;
 	top: 50px;
 	left: 145px;
@@ -939,26 +960,3 @@ option {
 	}
 }
 
-@media (min-width: 300px) and (max-width: 786px){
-.mi-historia {
-	width: 50%;
-	left: 200px;
-	font-size: 10px;
-	line-height: 16px;
-	margin: 50px 0px 0px 20px;
-	}
-}
-
-@media (min-width: 300px) and (max-width: 786px){
-	.link-trabajos li {
-	top: 150px;
-	left: 200px;
-	margin-bottom: 70px;
-	}
-}
-
-@media (min-width: 300px) and (max-width: 786px){
-.link-trabajos li a {
-	font-size: 12px;
-	}
-}
