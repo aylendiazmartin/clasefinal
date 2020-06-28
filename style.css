@@ -12,35 +12,33 @@ body {
 }
 
 .menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	width: 1200px;
 	height: 200px;
-	padding: 0px;
-	margin-bottom: 50px;
+	padding-top: 10px;
 	
-	}
+}
 
 
 .menu__logo {
 	display: flex;
-	flex-direction: row;
-	margin: 0px;
-	width: 200px;
-    height: auto;
-}
+	flex-direction: column;
+	align-items: center;
+	margin-top: 70px;
 
-.menu__logo a{
-	margin: 20px 0px 10px 100px;
+	
 }
-
 
 
 
 .menu__item {  
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
-	margin: 0px 0px 0px 250px;
-	padding: 0px;
+	justify-content: center;
+
+
   }
 
 
@@ -54,7 +52,7 @@ body {
 	list-style: none;
 	font-weight: 430;
 	text-decoration-line: none;
-	margin: 90px 15px 0px 6px;
+	margin: 30px 15px 70px 6px;
 	padding: 10px;
 	}
 
@@ -64,7 +62,8 @@ nav .menu__item--hola {
 	height: 30px;
 	color: #D3A89B;
 	font-size: 25px;
-	margin: 85px 30px 10px 0px;
+	margin: 25px 25px 20px 0;
+	
 }
 
 
