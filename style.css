@@ -133,16 +133,6 @@ h3 {
 }
 
 
-h5 {
-	color: #606060;
-	font-size: 16px;
-	font-family: 'Montserrat', sans-serif;
-	letter-spacing: 2px;
-	text-align: left;
-	padding: 0px;
-	margin: 20px 0px 50px 25px;
-}
-
 
 p {
 	color: #606060;
@@ -185,7 +175,7 @@ p {
 
 /*es otra seccion*/
 
-.que-es-magin {
+.magin {
 	color: #606060;
 	font-size: 14px;
 	font-family: 'Montserrat', sans-serif;
@@ -282,7 +272,7 @@ p {
 
 /*secccion trabajos*/
 
-.mis-trabajos {
+.mis__trabajos {
 	color:  #D3A89B;
 	font-size: 44px;
 	font-family: 'Montserrat', sans-serif;
@@ -290,6 +280,16 @@ p {
 	text-align: left;
 	padding: 0px;
 	margin: 40px 0px 0px 20px;
+}
+
+h5 {
+	color: #606060;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	text-align: left;
+	padding: 0px;
+	margin: 20px 0px 50px 25px;
 }
 
 
@@ -470,7 +470,7 @@ p {
 
 /*servicios*/
 
-.seccion-servicios {
+.servicios {
 	display: grid;
 	grid-gap: 10px;
 	justify-content: center;
@@ -486,7 +486,7 @@ p {
 	;
 }
 
-.servicio-icono-dg {
+.servicio__icono--dg {
 	grid-column: 1 ;
 	grid-row: 1 / span 3;
 	width: 200px;
@@ -494,7 +494,7 @@ p {
 }
 
 
-.servicio-titulo-dg {
+.servicio__titulo--dg  {
 	grid-column: 2;
 	grid-row: 1 /span 1;
 	color: #606060;
@@ -507,7 +507,7 @@ p {
 }
 	
 
-.descripcion-servicio-dg {
+.servicio__descripcion--dg {
 	grid-column: 2;
 	grid-row: 2 /span 1;
 	color: #606060;
@@ -520,7 +520,7 @@ p {
 }
 
 
-.contratar-servicio-dg {
+.servicio__link--dg {
 	grid-column: 2;
 	grid-row: 3 /span 1;
 	font-family: 'Montserrat', sans-serif;
@@ -538,7 +538,7 @@ p {
 
 }
 
-.contratar-servicio-dg li a {
+.servicio__link--dg li a {
 	text-decoration: none;
 	list-style: none;
 	color: white;
@@ -549,7 +549,7 @@ p {
 
 /*web*/
 
-.servicio-icono-web {
+.servicio__icono--web {
 	grid-column: 1 ;
 	grid-row: 4 / span 3;
 	width: 200px;
@@ -557,7 +557,7 @@ p {
 }
 
 
-.servicio-titulo-web {
+.servicio__titulo--web {
 	grid-column: 2;
 	grid-row: 4 /span 1;
 	color: #606060;
@@ -570,7 +570,7 @@ p {
 }
 	
 
-.descripcion-servicio-web {
+.servicio__descripcion--web {
 	grid-column: 2;
 	grid-row: 5 /span 1;
 	color: #606060;
@@ -583,7 +583,7 @@ p {
 }
 
 
-.contratar-servicio-web {
+.servicio__link--web {
 	grid-column: 2;
 	grid-row: 6 /span 1;
 	color: #606060;
@@ -600,7 +600,7 @@ p {
 
 }
 
-.contratar-servicio-web li a {
+.servicio__link--web li a {
 	text-decoration: none;
 	list-style: none;
 	color: white;
@@ -611,7 +611,7 @@ p {
 /*community*/
 
 
-.servicio-icono-community {
+.servicio__icono--community {
 	grid-column: 1 ;
 	grid-row: 7 / span 3;
 	width: 200px;
@@ -619,7 +619,7 @@ p {
 }
 
 
-.servicio-titulo-community {
+.servicio__titulo--community {
 	grid-column: 2;
 	grid-row: 7 /span 1;
 	color: #606060;
@@ -632,7 +632,7 @@ p {
 }
 	
 
-.descripcion-servicio-community {
+.servicio__descripcion--community {
 	grid-column: 2;
 	grid-row: 8 /span 1;
 	color: #606060;
@@ -645,7 +645,7 @@ p {
 }
 
 
-.contratar-servicio-community {
+.servicio__link--community {
 	grid-column: 2;
 	grid-row: 9 /span 1;
 	font-family: 'Montserrat', sans-serif;
@@ -661,7 +661,7 @@ p {
 
 }
 
-.contratar-servicio-community li a {
+.servicio__link--community li a {
 	text-decoration: none;
 	list-style: none;
 	color: white;
@@ -670,7 +670,7 @@ p {
 /*fotografia*/
 
 
-.servicio-icono-foto {
+.servicio__icono--foto {
 	grid-column: 1 ;
 	grid-row: 10 / span 3;
 	width: 200px;
@@ -678,7 +678,7 @@ p {
 }
 
 
-.servicio-titulo-foto {
+.servicio__titulo--foto {
 	grid-column: 2;
 	grid-row: 10 /span 1;
 	color: #606060;
@@ -691,7 +691,7 @@ p {
 }
 	
 
-.descripcion-servicio-foto {
+.servicio__descripcion--foto {
 	grid-column: 2;
 	grid-row: 11 /span 1;
 	color: #606060;
@@ -704,7 +704,7 @@ p {
 }
 
 
-.contratar-servicio-foto {
+.servicio__link--foto {
 	grid-column: 2;
 	grid-row: 12 /span 1;
 	font-family: 'Montserrat', sans-serif;
@@ -720,8 +720,11 @@ p {
 
 }
 
-
-
+.col-form-label {
+	color: #606060;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
 
 
 /*contacto formulario*/
