@@ -81,13 +81,13 @@ nav .menu__item--hola:focus {
 
 
 
-.imagen1:hover {
+.trabajos__imagen--1:hover {
 	transform: scale(1.2);
 }
-.imagen2:hover {
+.trabajos__imagen--2:hover {
 	transform: scale(1.2);
 }
-.imagen3:hover {
+.trabajos__imagen--3:hover {
 	transform: scale(1.2);
 }
 
@@ -127,7 +127,7 @@ h2  {
 	color: #D3A89B;
 	font-family:manuscrita;
 	font-size: 40px;
-	margin: 40px 0px 5px 25px;
+	margin: 70px 0px 5px 80px;
 }
 
 
@@ -140,7 +140,14 @@ h3 {
 	margin: 50px 5px 5px 25px;
 }
 
-
+h5 {color: #606060;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	text-align: left;
+	padding: 0px;
+	margin: 20px 0px 50px 80px;
+}
 
 p {
 	color: #606060;
@@ -741,7 +748,7 @@ p {
 	height: 150px;
 	background-color: #F2F2F2;
 	margin-left: 100px;
-	margin: 40px 0px 5px 25px;
+	margin: 40px 0px 5px 80px;
 }
 
 
@@ -751,7 +758,7 @@ p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 17px;
 	padding: 5px;
-	margin: 40px 0px 5px 25px;
+	margin: 40px 0px 5px 110px;
 	width: 500px;
 }
 
@@ -855,18 +862,10 @@ option {
 
 }
 
-@media (min-width: 300px) and (max-width: 786px){
-.abajo-de-todo p {
-	width: 100%;
-	height: auto;
-	padding-top: 18px;
-	
-	}
-}
 
 /*logo+menu*/
 @media (min-width: 300px) and (max-width: 786px){
-	.todo-el-menu {
+	.menu {
 		width: 100vw;
 		height: auto;
 		margin-bottom: 40px;
