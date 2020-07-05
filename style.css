@@ -52,19 +52,20 @@ body {
 	font-size: 15px;
 	letter-spacing: 2.5px;
 	list-style: none;
-	font-weight: 430;
+	font-weight: 420;
 	text-decoration-line: none;
 	margin: 60px 15px 70px 6px;
 	padding: 10px;
 	}
 
 nav .menu__item--hola {
-	font-family:manuscrita;
+	
 	width: 90px;
 	height: 30px;
-	color: #D3A89B;
-	font-size: 23px;
-	margin: 55px 30px 20px 0;
+	background-color: #D3A89B ;
+	color: white;
+	margin: 65px 30px 20px 0;
+	padding: 5px 5px 5px 12px;
 	
 }
 
@@ -128,7 +129,8 @@ h2  {
 	color: #D3A89B;
 	font-family:manuscrita;
 	font-size: 40px;
-	margin: 70px 0px 5px 80px;
+	margin: 40px 0px 5px 80px;
+	text-align: center;
 }
 
 
@@ -136,18 +138,19 @@ h2  {
 h3 {
 	color: #D3A89B;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
+	font-size: 28px;
 	padding: 18px 5px 5px 0px;
 	margin: 50px 5px 5px 25px;
 }
 
 h5 {color: #606060;
-	font-size: 16px;
+	font-size: 18px;
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 2px;
 	text-align: left;
 	padding: 0px;
 	margin: 20px 0px 50px 80px;
+	text-align: center;
 }
 
 p {
@@ -216,9 +219,8 @@ p {
 
 .magin {
 	display: flex;
-
 	color: #606060;
-	font-size: 16px;
+	font-size: 15px;
 	font-family: 'Montserrat', sans-serif;
 	line-height: 25px;
 	letter-spacing: 1.8px;
@@ -237,9 +239,9 @@ p {
 
 .mihistoria__imagen {
 	position: absolute;
-	width: 300px;
+	width: 350px;
 	margin: 20px 80px 0px 0px;
-	left: 300px;	
+	left: 200px;	
 }
 
 
@@ -293,33 +295,35 @@ p {
 
 .mihistoria__boton li {
 	list-style: none;
-	width: 250px;
+	width: 220px;
 	height: auto;
 	position: relative;
-	top: 10px;
-	left: 700px;
-	font-size: 14px;
+	top: 35px;
+	left: 630px;
+	font-size: 16px;
 	letter-spacing: 1px;
 	background-color: #D3A89B;
 	padding: 5px;
 	text-align: center;	
 	margin: 0px;
 	border-radius:10px;
+	font-weight: 500;
 }
 
 
 .mihistoria__boton li a {
 	color: white;
-	font-size: 16px;
-	letter-spacing: 1px;
-	font-weight: 500;
 	text-decoration: none;
 	padding: 3px 0 10px 0 ;
 }
 
+.mihistoria__boton li:hover {
+	background-color:  #606060;
+}
+
 
 /*secccion trabajos*/
-
+/*
 .trabajos_titulo {
 	color:  #D3A89B;
 	font-size: 40px;
@@ -339,7 +343,7 @@ p {
 	padding: 0px;
 	margin: 20px 0px 50px 25px;
 }
-
+*/
 
 /*trabajos con grids*/
 
@@ -360,7 +364,8 @@ p {
 .trabajos__imagen--1 {
 	grid-column: 1 ;
 	grid-row: 1 / span 3;
-	width: 600px;
+	width: 500px;
+	margin-left: 80px;
 }
 
 
@@ -411,7 +416,8 @@ p {
 .trabajos__imagen--2{
 	grid-column: 2 ;
 	grid-row: 4 / span 3;
-	width: 600px;	
+	width: 500px;
+
 }
 
 
@@ -465,8 +471,9 @@ p {
 .trabajos__imagen--3 {
 	grid-column: 1 ;
 	grid-row: 7 / span 3;
-	width: 600px;
-	margin-top: 25px;	
+	width: 500px;
+	margin-left: 80px;
+
 }
 
 
@@ -474,7 +481,7 @@ p {
 	grid-column: 2;
 	grid-row: 7 /span 1;
 	align-items: end;
-	margin: 25px 0px 0px 10px;
+	margin: 0px 0px 0px 10px;
 	color: #606060;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
@@ -550,6 +557,7 @@ p {
 	letter-spacing: 2px;
 	margin: 20px 0px 0px 0px;
 	padding: 0px;
+	text-align: left;
 }
 	
 
@@ -610,6 +618,7 @@ p {
 	letter-spacing: 2px;
 	margin: 95px 0px 0px 0px;
 	padding: 0px;
+	text-align: left;
 }
 	
 
@@ -665,6 +674,7 @@ p {
 	letter-spacing: 2px;
 	margin: 95px 0px 0px 0px;
 	padding: 0px;
+	text-align: left;
 }
 	
 
@@ -721,6 +731,7 @@ p {
 	letter-spacing: 2px;
 	margin: 95px 0px 0px 0px;
 	padding: 0px;
+	text-align: left;
 }
 	
 
@@ -760,28 +771,62 @@ p {
 	font-size: 15px;
 }
 
-
-/*contacto formulario*/
-.info {
-	width: 700px;
-	height: 150px;
-	background-color: #F2F2F2;
-	margin-left: 100px;
-	margin: 40px 0px 5px 80px;
+.servicio__link--dg:hover {
+	background: #B28479;
+  	transition: all 1s ease;
 }
 
+.servicio__link--web:hover {
+	background: #B28479;
+  	transition: all 1s ease;
+}
+
+.servicio__link--community:hover {
+	background: #B28479;
+  	transition: all 1s ease;
+}
+.servicio__link--foto:hover {
+	background: #B28479;
+  	transition: all 1s ease;
+}
+
+/*contacto formulario*/
 
 
 .item {
+	position: absolute;
 	color: #606060;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 17px;
 	padding: 5px;
-	margin: 40px 0px 5px 110px;
-	width: 500px;
+	margin: 40px 0px 50px 110px;
+	width: 430px;
+	height: auto;
+	
 }
 
-option {
+.contacto__imagen {
+	position: relative;
+	left: 700px;
+	width: 450px;
+	height: auto;
+	top: 100px;
+}
+
+.info {
+	position: relative;
+	top: 125px;
+	left: 550px;
+	width: 580px;
+	height: 150px;
+	background-color: #F2F2F2;
+	margin-left: 100px;
+	margin: 40px 0px 320px 80px;
+}
+
+
+
+.option {
 	color: #606060;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
@@ -798,6 +843,7 @@ option {
 	font-size: 14px;
 	color: white;
 	outline: none;
+	margin-bottom: 50px;
 
 }
 
@@ -817,7 +863,7 @@ option {
 }
 
 #comments {
-	width: 500px;
+	width: 430px;
 	height: 200px;
 }
 
@@ -825,6 +871,7 @@ option {
 .b-form {
 	margin-top: 30px;
 }
+
 
 
 /*fin de pagina*/
@@ -846,7 +893,7 @@ option {
 .copy {
 	width: 1200px;
 	height: 40px;
-	background-color: #ece6e0;
+
 	color: #606060;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 9px;
