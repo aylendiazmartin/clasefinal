@@ -26,11 +26,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 70px;
-
-	
-
-	
+	margin-top: 70px;	
 }
 
 
@@ -39,9 +35,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-
-
-  }
+ }
 
 
 .menu__item a {
@@ -56,7 +50,7 @@ body {
 	text-decoration-line: none;
 	margin: 60px 15px 70px 6px;
 	padding: 10px;
-	}
+}
 
 nav .menu__item--hola {
 	
@@ -240,6 +234,24 @@ p {
 
 }
 
+hr {
+  height: 2px;
+  width: 45%;
+  background-color:  #D3A89B;
+  margin-top: 70px;
+  margin-bottom: 0px;
+}
+
+.info__index {
+	text-align: center;
+	margin: 0;
+	
+}
+
+.info__titulo {
+	margin-top: 20px;
+	padding: 10px;
+}
 
 /*HOLA!*/
 /*imagen*/
@@ -934,6 +946,11 @@ p {
 	margin: 40px 0px 320px 80px;
 }
 
+.info__texto {
+	margin: 0px;
+	padding-left: 30px;
+	margin-top: 5px;
+}
 
 
 .option {
@@ -1003,13 +1020,12 @@ p {
 .copy {
 	width: 1200px;
 	height: 40px;
-
 	color: #606060;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 9px;
 	text-align: center;
-	padding-top: 19px;
-	margin: 10px 0 10px 0px;
+	padding-top: 5px;
+	margin: 0px 0 10px 0px;
 }
 
 
