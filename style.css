@@ -655,6 +655,7 @@ hr {
     text-align: center;
     margin: 0px;
     border-radius: 20px;
+    outline: white;
 }
 
 .servicio__link--dg li a {
@@ -815,7 +816,6 @@ hr {
     text-align: center;
     margin: 0px;
     border-radius: 20px;
-    border-radius: none;
 }
 
 .col-form-label {
