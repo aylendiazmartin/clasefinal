@@ -853,39 +853,49 @@ hr {
 /*contacto formulario*/
 
 .item {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
     color: #606060;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     padding: 5px;
     margin: 40px 0px 50px 110px;
-    width: 430px;
+    width: 500px;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.contacto__imagen {
-    position: relative;
-    left: 700px;
-    width: 450px;
-    height: auto;
-    top: 100px;
-}
+
 
 .info {
-    position: relative;
-    top: 125px;
-    left: 550px;
-    width: 580px;
-    height: 150px;
-    background-color: #F2F2F2;
-    margin-left: 100px;
-    margin: 40px 0px 320px 80px;
+  background-color: #D9ADA0;
+    width: 450px;
+    height: 180px;
+    margin: 20px 0px 100px 0px;
+   
 }
 
+.info__titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 33px;
+    color: white;
+    margin: 20px 0 0 20px;
+}
 .info__texto {
-    margin: 0px;
-    padding-left: 30px;
+    margin: 0px 0 0 30px;
+    color: #606060; 
     margin-top: 5px;
+    width: 500px;
+}
+
+.info__texto--index {
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+   
 }
 
 .option {
@@ -1563,25 +1573,30 @@ hr {
 
 @media (min-width: 300px) and (max-width: 786px) {
 .info {
-    top: 680px;
+    top: 10px;
     left: 0px;
-    width: 400px;
+    width: 420px;
     height: 150px;
     margin-left: 100px;
-    margin: 10px 0px 650px 50px;
+    margin: 10px 0px 100px 0px;
+    border: solid 2px;
+    border-color: #D3A89B;;
+    padding: 5px 10px 5px 10px;
     }
 }
 
 @media (min-width: 300px) and (max-width: 786px) {
 .info__texto {
     margin: 0px;
-    padding-left: 15px;
+    padding-left: 8px;
     margin-top: 5px;
     width: 420px;
+   
     }
 }
 
 @media (min-width: 300px) and (max-width: 786px) {
- h3 {
-     margin: 50px 5px 5px 15px;
+.info__titulo {
+     margin: 5px 5px 5px 5px;
+}
  } 
