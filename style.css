@@ -13,9 +13,6 @@ body {
 }
 
 .menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     width: 1200px;
     height: 300px;
     padding-top: 10px;
@@ -25,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 .menu__item {
@@ -967,6 +964,7 @@ hr {
     h2 {
         margin-left: auto;
         margin-right: auto;
+        margin-top: 100px;
     }
 }
 
@@ -1191,3 +1189,116 @@ hr {
             font-size: 10px;
         }
     }
+
+@media (min-width: 300px) and (max-width: 786px) {
+            #carouselExampleControls {
+                width: 100%;
+                margin-top: 70px;
+            }
+        }
+        
+@media (min-width: 300px) and (max-width: 786px) {
+            h1 {
+                font-size: 42px;
+                margin-top: 30px;
+            }
+        }
+
+@media (min-width: 300px) and (max-width: 786px) {
+            .magin {
+                font-size: 10px;
+                width: 70%;
+               
+            }
+        }
+
+@media (min-width: 300px) and (max-width: 786px) {
+            .icono__titulo {
+                font-size: 16px;
+                width: 80vw;
+                margin: 0;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;   
+
+            }
+        }
+
+@media (min-width: 300px) and (max-width: 786px) {
+            .info__index {
+                width: 100vw;
+            }
+        }
+
+@media (min-width: 300px) and (max-width: 786px) {
+            .info__texto {
+                font-size: 13px;
+            }
+        }
+
+@media (min-width: 300px) and (max-width: 786px) {
+            .icono {
+              margin: 10px 0 20px 0;
+            
+
+            }
+        }
+
+@media (min-width: 300px) and (max-width: 786px) {
+            .icono__imagen {
+                
+           
+
+            }
+        }
+
+
+@media (min-width: 300px) and (max-width: 786px) {
+            .icono__link {
+                width: 120px;
+                text-align: center;
+                margin: 10px 0 20px 0;
+                font-size: 11px;
+           
+            
+
+            }
+        }
+
+
+@media (min-width: 300px) and (max-width: 786px) {
+        .menu {
+            width: 300px;
+            height: 200px;
+            
+        }
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+    .menu__logo {
+        width: 100vw;
+        
+
+        }
+    }
+
+    @media (min-width: 300px) and (max-width: 786px) {
+    .menu__item {
+    width: 30vw;
+}
+    }
+
+    @media (min-width: 300px) and (max-width: 786px) {
+        .menu__item a {
+            margin: 0;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+    }
+
+@media (min-width: 300px) and (max-width: 786px) {
+    nav .menu__item--hola {
+        margin-top: 34px;
+        margin-right: 10px;
+    }
+}
