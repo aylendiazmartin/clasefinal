@@ -1596,12 +1596,11 @@ hr {
     padding-left: 8px;
     margin-top: 5px;
     width: 420px;
-   
     }
 }
 
 @media (min-width: 300px) and (max-width: 786px) {
 .info__titulo {
      margin: 5px 5px 5px 5px;
-}
- } 
+    }
+} 
