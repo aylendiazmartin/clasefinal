@@ -898,6 +898,11 @@ hr {
    
 }
 
+.info__titulo--index {
+    color: #D9ADA0;
+    margin: 0;
+}
+
 .option {
     color: #606060;
     font-family: 'Montserrat', sans-serif;
