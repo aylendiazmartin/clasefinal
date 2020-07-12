@@ -611,6 +611,7 @@ hr {
 }
 
 .servicio__icono--dg {
+    grid-area: icono-dg;
     grid-column: 1;
     grid-row: 1 / span 3;
     width: 200px;
@@ -618,6 +619,7 @@ hr {
 }
 
 .servicio__titulo--dg {
+    grid-area: titulo-dg;
     grid-column: 2;
     grid-row: 1 /span 1;
     color: #606060;
@@ -631,6 +633,7 @@ hr {
 }
 
 .servicio__descripcion--dg {
+    grid-area: descripcion-dg;
     grid-column: 2;
     grid-row: 2 /span 1;
     color: #606060;
@@ -643,6 +646,7 @@ hr {
 }
 
 .servicio__link--dg {
+    grid-area: link-dg;
     grid-column: 2;
     grid-row: 3 /span 1;
     font-family: 'Montserrat', sans-serif;
@@ -965,6 +969,7 @@ hr {
         margin-left: auto;
         margin-right: auto;
         margin-top: 100px;
+        margin-bottom: 38px;
     }
 }
 
@@ -1362,3 +1367,176 @@ hr {
         
     }
 }
+
+
+@media (min-width: 300px) and (max-width: 786px) {
+.servicios {
+    display: grid;
+    grid-template-columns:300px;
+    grid-template-rows: 200px;
+    grid-template-rows: repeat (12, 150px );
+    grid-template-areas: "icono-dg" "titulo-dg" "descripcion-dg" "link-dg";
+}
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+.servicio__icono--dg {
+    height: auto;
+    grid-column: 1;
+    grid-row: 1 / span 3;
+    width: 200px;
+    margin: 30px 0px 0px 50px;
+    
+
+}
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+.servicio__titulo--dg {
+    grid-column: 1;
+    grid-row: 4 /span 1;
+    font-size: 20px;
+    margin: 0;
+   
+}
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+.servicio__descripcion--dg {
+    grid-column: 1;
+    grid-row: 5 /span 1;
+    font-size: 12px;
+}
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+.servicio__link--dg {
+    grid-column: 1;
+    grid-row: 6 /span 1;
+    font-size: 12px;
+    width: 180px;
+    height: 32px;
+    
+
+}
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+.servicio__icono--web {
+    grid-column: 1;
+    grid-row: 7 / span 3;
+    width: 200px;
+    margin: 50px 0px 0px 50px;
+    
+}
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+
+.servicio__titulo--web {
+    grid-column: 1;
+    grid-row: 10 /span 1;
+    font-size: 20px;
+    margin: 0;
+}
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+
+.servicio__descripcion--web {
+    grid-column: 1;
+    grid-row: 11 /span 1;
+    font-size: 12px;
+}
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+
+.servicio__link--web {
+    grid-column: 1;
+    grid-row: 12 /span 1;
+    font-size: 12px;
+    width: 180px;
+    height: 32px;
+}
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+.servicio__icono--community {
+    grid-column: 1;
+    grid-row: 13 / span 3;
+    width: 200px;
+    margin: 50px 0px 30px 50px;
+}
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+.servicio__titulo--community {
+    grid-column: 1;
+    grid-row: 16 /span 1;
+   font-size: 20px;
+    margin: 0;
+}
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+.servicio__descripcion--community {
+    grid-column: 1;
+    grid-row: 17 /span 1;
+    font-size: 12px;
+}
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+.servicio__link--community {
+    grid-column: 1;
+    grid-row: 18 /span 1;
+    font-size: 12px;
+    width: 180px;
+    height: 32px;
+}
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+.servicio__icono--foto {
+    grid-column: 1;
+    grid-row: 19 / span 3;
+    width: 200px;
+    margin: 50px 0px 0px 50px;
+}
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+.servicio__titulo--foto {
+    grid-column: 1;
+    grid-row: 22 /span 1;
+   font-size: 20px;
+    margin: 0;
+}
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+.servicio__descripcion--foto {
+    grid-column: 1;
+    grid-row: 23 /span 1;
+    font-size: 12px;
+}
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+.servicio__link--foto {
+    grid-column: 1;
+    grid-row: 24 /span 1;
+   font-size: 12px;
+    width: 180px;
+    height: 32px;
+}
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+    h5 {
+        margin: 10px 50px 50px 50px;
+    }
+
+}
+
